@@ -2,9 +2,6 @@ const botconfig = require("./botconfig.json");
 const Discord = require("discord.js");
 const bot = new Discord.Client({ disableEveryone: true });
 
-//TEST GITHUB SYNC
-//Code from mac!
-
 console.clear();
 console.log("STARTING BOT...");
 bot.on("ready", async () => {
