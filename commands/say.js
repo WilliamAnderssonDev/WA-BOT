@@ -26,7 +26,7 @@ module.exports.run = async (bot, message, args) => {
 	}
 
 	if (args[0] && message.member.hasPermission("MANAGE_MESSAGES")) {
-		message.delete({ timeout: timeToDel });
+		message.delete();
 		message.channel.send(args.join(" "));
 	}
 };
